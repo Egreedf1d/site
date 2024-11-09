@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            animation: fadeIn 2s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .logo {
+            width: 50px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .link {
+            margin: 15px 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <img src="images/logo.png" alt="Логотип" class="logo">
+    </a>
+    <a> </a>
+    <a> </a>
+    <a> </a>
+    <h1>Добро пожаловать на главную страницу</h1>
+    <a href="documents/example.pdf" class="link">Скачать PDF</a>
+    <a href="documents/example.docx" class="link">Скачать DOC</a>
+    <a href="documents/example.jpg" class="link">Скачать JPG</a>
+    <a href="documents/example.xls" class="link">Скачать XLS</a>
+    <a href="page1.html">Перейти на страницу 1</a>
+    <a href="page2.html" class="link">Перейти на страницу 2</a>
+</body>
+</html>
